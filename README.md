@@ -86,6 +86,3 @@ This driver operates at kernel level and has full system access. Use with cautio
 
 This driver is for educational and development purposes only. Use at your own risk. Improper use of kernel drivers can lead to system crashes and data loss.
 
-## License
-
-[Add your chosen license here]
