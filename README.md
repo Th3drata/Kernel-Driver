@@ -84,27 +84,27 @@ The codebase prioritizes clarity and auditability, making it ideal for security 
 
 ```
 ┌─────────────────────────────────────────────┐
-│              KDriver.sys                     │
+│              KDriver.sys                    │
 ├─────────────────────────────────────────────┤
 │  main.cpp                                   │
-│  ├─ DriverEntry()      (Initialization)    │
-│  ├─ DriverUnload()     (Cleanup)           │
-│  └─ Dispatch Routines  (IRP Handling)      │
+│  ├─ DriverEntry()      (Initialization)     │
+│  ├─ DriverUnload()     (Cleanup)            │
+│  └─ Dispatch Routines  (IRP Handling)       │
 ├─────────────────────────────────────────────┤
 │  memory.cpp / memory.h                      │
-│  ├─ Read/Write Helpers                     │
-│  ├─ Process Memory Access                  │
-│  └─ Validation Logic                       │
+│  ├─ Read/Write Helpers                      │
+│  ├─ Process Memory Access                   │
+│  └─ Validation Logic                        │
 ├─────────────────────────────────────────────┤
 │  hook.cpp / hook.h                          │
-│  ├─ Hook Installation                      │
-│  ├─ Hook Removal                           │
-│  └─ Detour Management                      │
+│  ├─ Hook Installation                       │
+│  ├─ Hook Removal                            │
+│  └─ Detour Management                       │
 ├─────────────────────────────────────────────┤
 │  definitions.h                              │
-│  ├─ Shared Structures                      │
-│  ├─ IOCTL Codes                            │
-│  └─ Compile-time Flags                     │
+│  ├─ Shared Structures                       │
+│  ├─ IOCTL Codes                             │
+│  └─ Compile-time Flags                      │
 └─────────────────────────────────────────────┘
 ```
 
