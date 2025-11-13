@@ -492,6 +492,6 @@ SOFTWARE.
 
 **Built with ❤️ for the security research community**
 
-[Report Bug](https://github.com/th3drata/KDriver/issues) · [Request Feature](https://github.com/th3drata/KDriver/issues) · [Documentation](https://github.com/th3drata/KDriver/wiki)
+[Report Bug](https://github.com/th3drata/Kernel-Driver/issues) · [Request Feature](https://github.com/th3drata/Kernel-Driver/issues) · [Documentation](https://github.com/th3drata/Kernel-Driver/wiki)
 
 </div>
