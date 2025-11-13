@@ -84,27 +84,27 @@ The codebase prioritizes clarity and auditability, making it ideal for security 
 
 ```
 ┌─────────────────────────────────────────────┐
-│              KDriver.sys                     │
+│              KDriver.sys                    │
 ├─────────────────────────────────────────────┤
 │  main.cpp                                   │
-│  ├─ DriverEntry()      (Initialization)    │
-│  ├─ DriverUnload()     (Cleanup)           │
-│  └─ Dispatch Routines  (IRP Handling)      │
+│  ├─ DriverEntry()      (Initialization)     │
+│  ├─ DriverUnload()     (Cleanup)            │
+│  └─ Dispatch Routines  (IRP Handling)       │
 ├─────────────────────────────────────────────┤
 │  memory.cpp / memory.h                      │
-│  ├─ Read/Write Helpers                     │
-│  ├─ Process Memory Access                  │
-│  └─ Validation Logic                       │
+│  ├─ Read/Write Helpers                      │
+│  ├─ Process Memory Access                   │
+│  └─ Validation Logic                        │
 ├─────────────────────────────────────────────┤
 │  hook.cpp / hook.h                          │
-│  ├─ Hook Installation                      │
-│  ├─ Hook Removal                           │
-│  └─ Detour Management                      │
+│  ├─ Hook Installation                       │
+│  ├─ Hook Removal                            │
+│  └─ Detour Management                       │
 ├─────────────────────────────────────────────┤
 │  definitions.h                              │
-│  ├─ Shared Structures                      │
-│  ├─ IOCTL Codes                            │
-│  └─ Compile-time Flags                     │
+│  ├─ Shared Structures                       │
+│  ├─ IOCTL Codes                             │
+│  └─ Compile-time Flags                      │
 └─────────────────────────────────────────────┘
 ```
 
@@ -168,7 +168,7 @@ For safe testing, use:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/KDriver.git
+git clone https://github.com/th3drata/Kernel-Driver.git
 cd KDriver
 
 # Open solution in Visual Studio
@@ -492,6 +492,6 @@ SOFTWARE.
 
 **Built with ❤️ for the security research community**
 
-[Report Bug](https://github.com/yourusername/KDriver/issues) · [Request Feature](https://github.com/yourusername/KDriver/issues) · [Documentation](https://github.com/yourusername/KDriver/wiki)
+[Report Bug](https://github.com/th3drata/Kernel-Driver/issues) · [Request Feature](https://github.com/th3drata/Kernel-Driver/issues) · [Documentation](https://github.com/th3drata/Kernel-Driver/wiki)
 
 </div>
