@@ -168,7 +168,7 @@ For safe testing, use:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/KDriver.git
+git clone https://github.com/th3drata/KDriver.git
 cd KDriver
 
 # Open solution in Visual Studio
