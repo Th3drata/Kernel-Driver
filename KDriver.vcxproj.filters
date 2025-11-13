@@ -19,7 +19,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Inf Include="MòjDriverBlyat.inf">
+    <Inf Include="KDriver.inf">
       <Filter>Driver Files</Filter>
     </Inf>
   </ItemGroup>
