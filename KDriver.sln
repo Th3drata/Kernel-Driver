@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KDriver", "KDriver.vcxproj", "{8D31DF24-FB83-4E6C-9C81-009650D7EC29}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KernelCheat Сука", "..\KernelCheat Сука\KernelCheat Сука.vcxproj", "{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -27,14 +25,6 @@ Global
 		{8D31DF24-FB83-4E6C-9C81-009650D7EC29}.Release|x64.ActiveCfg = Release|x64
 		{8D31DF24-FB83-4E6C-9C81-009650D7EC29}.Release|x64.Build.0 = Release|x64
 		{8D31DF24-FB83-4E6C-9C81-009650D7EC29}.Release|x64.Deploy.0 = Release|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Debug|ARM64.ActiveCfg = Debug|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Debug|ARM64.Build.0 = Debug|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Debug|x64.ActiveCfg = Debug|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Debug|x64.Build.0 = Debug|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Release|ARM64.ActiveCfg = Release|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Release|ARM64.Build.0 = Release|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Release|x64.ActiveCfg = Release|x64
-		{E1C59275-B2AB-4FEE-AF40-31A2900BEAC3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
